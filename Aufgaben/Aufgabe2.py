@@ -60,8 +60,3 @@ for person, fach in dict_student_2.items():
 print(same_interest)
 
 
-
-a = {'Hallo':'Hello', 'Willkommen':'Welcome'}
-print(a)
-
-a['Tschüss'] = 'ByeBye' # erzeugt neuen Eintrag im Dictionary a
