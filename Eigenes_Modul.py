@@ -4,6 +4,6 @@ def func(a=None, b=None, c=None):
     print('B: ',b)
     print('C: ',c)
 
-    val = a * sb
+    val = a * b
 
     return val, a, b
