@@ -7,7 +7,7 @@ def func(a=None, b=None, c=None):  # None falls keine Parameter übergeben werde
     print('B: ',b)
     print('C: ',c)
 
-    val = a * b
+    val = a * sb
 
     return val, a, b
 
