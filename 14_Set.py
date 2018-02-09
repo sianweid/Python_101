@@ -19,6 +19,6 @@ print(fam_mutter - fam_vater) # OR Eintrage der fam-mutter minus der Einträge, 
 
 # Set Comprehension
 
-familie2 = { person for person in fam_mutter }
+familie2 = { person for person in fam_mutter | fam_vater }
 print(familie2)
 
