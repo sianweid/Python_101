@@ -16,5 +16,7 @@ dict_student_2 = { pers : [( fach , note ) for fach, note in
                         for pers in personen}
 
 with open('stud_noten.txt', 'w') as f:
-    json.dump(dict_student_2, f, indent = 4, separators=(',',':'))
-                            #   Einrücken      Trennen
+    json.dump(dict_student_2, f, indent = 4, separators=(',',':'), sort_keys=True)
+                            #   Einrücken      Trennen              Sortierung
+
+# Pandas als Format, wenn mit excel arbeiten

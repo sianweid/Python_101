@@ -4,7 +4,7 @@ text = 'fuu'
 text2 = 'baa'
 data = [1,3,5,7,9,11]
 
-# w = (über-)schreiben, r = lesen, a = append
+# w = (über-)schreiben, r = lesen, a = append , auch mischmodi möglich!
 
 
 # Daten schreiben
@@ -14,6 +14,9 @@ with open('testfile', 'w') as f: # f als Konvention für name des fileOjekts!
 
 
 # Daten lesen
+
+# readline() ... liest string ein. wenn mit ggf zahlen rechnen => cast zu float oder int!
+
 text_neu = ''
 
 with open('testfile','r') as f:
