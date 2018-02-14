@@ -2,6 +2,8 @@
 
 import numpy as np
 
+from numpy.linalg import eigvals
+
 data = [1.0, 2.0, 3.0]
 print(data)
 
@@ -25,3 +27,19 @@ print(matrix)
 
 listeMatrix = matrix.reshape(9)
 print(listeMatrix)
+
+print(matrix.shape)
+print(matrix.dtype)
+
+
+matrix = np.array([[1,4,3],[6,7,3],[8,8,3]], dtype = np.int8)
+print(matrix)
+
+matrix_transpose = np.transpose(matrix)
+print(matrix_transpose)
+
+matrix_inverse = np.invert(matrix)
+print(matrix_inverse)
+
+ev = np.linalg.eigvals(matrix)
+print(ev)
