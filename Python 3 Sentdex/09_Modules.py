@@ -8,7 +8,7 @@ from statistics import variance # variance()
 
 from statistics import variance, mean # meherere fkt importieren
 
-from statistics import * # alle fkt aus dem Paket sind importiert und können ohne Paketverweis aufgerufen werden
+# from statistics import * # alle fkt aus dem Paket sind importiert und können ohne Paketverweis aufgerufen werden
 
 
 
